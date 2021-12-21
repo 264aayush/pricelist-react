@@ -1,0 +1,16 @@
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited {
+  background-color: #ee5a36 !important;
+}
+.btn-outline-danger:hover,
+.btn-outline-danger:active,
+.btn-outline-danger:visited {
+  background-color: #ee5a36 !important;
+  color: white !important;
+}
+
+.active {
+  background: #f7f7f7 !important;
+}

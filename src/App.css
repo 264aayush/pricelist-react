@@ -1,0 +1,42 @@
+.my-modal,
+.my-modal-background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.my-modal {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 40;
+}
+
+.my-modal.is-active {
+  display: flex;
+}
+
+.my-modal-background {
+  background-color: rgba(10, 10, 10, 0.86);
+}
+
+.my-modal-content {
+  margin: 0 20px;
+  max-height: calc(100vh - 160px);
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .my-modal-content {
+    margin: 0 auto;
+    max-height: calc(100vh - 40px);
+    width: 640px;
+  }
+}

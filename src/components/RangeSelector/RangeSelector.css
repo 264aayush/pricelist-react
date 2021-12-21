@@ -1,0 +1,55 @@
+.my-container {
+  background: #f7f7f7;
+  border-radius: 15px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .my-container {
+    height: 60px;
+  }
+  .my-item {
+    border-right: 1px solid black;
+  }
+}
+
+.my-item {
+  color: #36455c;
+  flex: 1 1 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-item {
+  color: #36455c;
+  flex: 1 1 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-item:hover {
+  color: white;
+  background: #36455c;
+  cursor: pointer;
+}
+
+.my-item.active {
+  color: white;
+  background: #36455c !important;
+  cursor: pointer;
+}
+.last-item.active {
+  color: white;
+  background: #36455c !important;
+  cursor: pointer;
+}
+
+.last-item:hover {
+  color: white;
+  background: #36455c;
+  cursor: pointer;
+}
